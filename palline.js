@@ -9,7 +9,7 @@ function () {
    {
    cliccato++;
    }
-   document.addEventListener("mousedown", cliccami);
+   document.addEventListener("mouseclick", cliccami);
    
     var i = 0;
     var velocitaX = 30;
