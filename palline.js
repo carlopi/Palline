@@ -45,7 +45,7 @@ function () {
 		numColors++;
 	}
 var lastAngle = 1;
-var velAngle = 0.03;
+var velAngle = 0.02;
 var colorIDs = Array(100000);
 var colorNmber = 2;
 for (var i =0; i<10000; i++)
