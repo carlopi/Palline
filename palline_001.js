@@ -35,7 +35,15 @@ function () {
 	var palle = Array(100000);
 	var N = 0;
 	var colors = Array(100);
-	var numColors = 0;
+	colors[0] = "rgb(54,209,181)";	//arancione
+	colors[1] = "rgb(245, 144, 12)";//verde-acqua
+	colors[2] = "rgb(159, 0, 232)";//viola
+	colors[3] = "rgb(58, 110, 25)";//verde-scuro
+	colors[4] = "rgb(0, 11, 163)";//blu
+	colors[5] = "rgb(168, 0, 11)";
+	colors[6] = "rgb(255, 217, 0)";
+	colors[7] = "rgb(160, 252, 0)";
+	var numColors = 8;
 	while (numColors < 50)
 	{
 	rosso_ = (rosso_ + 57)%256;
